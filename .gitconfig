@@ -1,0 +1,10 @@
+[user]
+	name = ##
+	email = ##@##
+[alias]
+	st = status
+	ci = commit
+	pod = pull origin develop
+	co = checkout
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	audit = shortlog -n -s
